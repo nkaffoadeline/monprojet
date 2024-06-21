@@ -33,6 +33,7 @@
                             <option value="">Sélectionner le type</option>
                             <option value="chambre simple">Chambre simple</option>
                             <option value="chambre meublée">Chambre meublée</option>
+                            <option value="chambre semi meublée">Chambre semi meublée</option>
                         </select>
                     </div>
                     <div class="mb-4">
@@ -128,8 +129,9 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     var prixParType = {
-        "chambre simple": 15000, 
-        "chambre meublée": 25000, 
+        "chambre simple": 10000, 
+        "chambre meublée": 20000, 
+        "chambre semi meublée": 15000, 
     };
 
     var select = document.getElementById('type');
